@@ -1,0 +1,105 @@
+
+@font-face {
+    font-family: "Silkscreen";
+    src: url(slkscr.ttf);
+}
+
+body,h1{
+    margin: 0;
+}
+
+.heading{
+    font-family: 'Silkscreen';
+    background-color: aliceblue;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+
+}
+
+.player-selection img{
+    width: 80px;
+    height: 80px;
+}
+.player-selection button{
+    font-family: 'Silkscreen';
+    background-color: rgba(0, 213, 0, 0.515);
+    border-radius: 6px;
+    height: 30px;
+    width: 150px;
+
+}
+.player-selection {
+    display: flex;
+    gap: 40px;
+    padding-left: 590px;
+    align-items: center;
+
+}
+
+#player-O, #player-X {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.player-number{
+    font-size: 25px;
+    font-family: 'Silkscreen';
+}
+
+.current-player-selection{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.game-board{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    width: 600px;
+    height: 600px;
+    padding-left: 552px;
+    padding-top: 50px;
+}
+
+.square{
+    border-width: 3.5px;
+    border-color: black;
+    border-style: solid;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square img{
+    width: 160px;
+    height: 160px;
+}
+
+.top{
+    border-top: 0px;
+}
+
+.left{
+    border-left: 0px;
+}
+
+.bottom{
+    border-bottom: 0px;
+}
+
+.right{
+    border-right: 0px;
+}
+
+
+
+
+
